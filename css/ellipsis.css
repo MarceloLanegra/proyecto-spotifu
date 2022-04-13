@@ -1,5 +1,8 @@
 .ellipsis{
   overflow:hidden;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .ellipsis>* {

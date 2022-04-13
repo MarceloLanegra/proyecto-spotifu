@@ -1,0 +1,34 @@
+.user {
+  max-inline-size: 11.25rem;
+  inline-size: 100%; 
+
+}
+
+.user-menu {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  inline-size: 100%;
+  padding: 0.125rem;
+  transition: .3s background;
+}
+
+.user-menu img {
+  border-radius: 0.875rem;
+  vertical-align: middle;
+}
+
+.user-name {
+  font: var(--basefont);
+  color: var(--white);
+  inline-size: 7.625rem;
+}
+
+.user-menu:hover,
+.user-menu:focus-within {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+}
+

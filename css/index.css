@@ -5,8 +5,13 @@
 @import './button.css';
 @import './sidebar.css';
 @import './ellipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
 
 :root{
+    /* font-size: 14px; */
     --primary: #00B050;
     --white: #FFFFFF;
     --gray10: #B3B3B3;
@@ -23,3 +28,15 @@
     --button: 500 0.875rem/1rem var(--basefontFamily);
     --small: normal 0.75em/normal var(--basefontFamily);
 }
+
+/* @media screen and (min-width: 768px){
+    :root{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1367px){
+    :root{
+        font-size: 18px;
+    }
+} */

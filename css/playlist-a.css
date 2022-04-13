@@ -1,0 +1,66 @@
+.playlistA {
+  inline-size: 11.375rem;
+  block-size: 16.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background: var(--gray40);
+  box-sizing: border-box;
+  transition: 0.3s background;
+}
+
+.playlistA:hover,
+.playlistA:focus-within {
+  cursor: pointer;
+  background: var(--gray30);
+}
+
+.playlistA:hover .playlistA-cover button,
+.playlistA:focus-within .playlistA-cover button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.playlistA-cover img {
+  vertical-align: middle;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.playlistA-cover {
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-block-end: 1rem;
+}
+
+.playlistA button {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  opacity: 0;
+  transform: translateY(0.5rem);
+  will-change: opacity, transform;
+  transition: 0.3s opacity, 0.3s transform;
+}
+
+.playlistA-title {
+  font: var(--basefontBold);
+  color: var(--white);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.playlistA-description {
+  font: var(--basefont);
+  color: var(--gray10);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

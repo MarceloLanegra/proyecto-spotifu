@@ -1,0 +1,16 @@
+@import './playlist-list.css';
+@import './header.css';
+@import './sticky.css';
+
+.page {
+  padding-inline-start: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.page-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
