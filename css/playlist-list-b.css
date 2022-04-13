@@ -1,0 +1,24 @@
+.playlistListB {}
+
+.playlistListB-top {
+  display: flex;
+  gap: .625rem;
+}
+
+.playlistListB-cover img {
+  vertical-align: middle;
+}
+
+.playlistListB-description{
+  align-self: flex-end;
+}
+
+.playlistListB-title{
+  font:var(--headline1);
+  color: var(--white);
+}
+
+.playlistListB-info{
+  font: var(--small);
+  color: var(--white);
+}
