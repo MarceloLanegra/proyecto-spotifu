@@ -1,6 +1,7 @@
 .playlistListB {}
 
 .playlistListB-top {
+  /* border: 1px solid red; */
   display: flex;
   gap: .625rem;
 }
