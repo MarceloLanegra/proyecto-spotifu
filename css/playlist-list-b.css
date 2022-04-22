@@ -61,7 +61,7 @@
 }
 
 .playlistListB-order {
-  max-inline-size: 22px;
+  max-inline-size: 1.375rem;
   text-align: center;
   font: var(--basefont);
 }
@@ -107,7 +107,7 @@
 }
 
 .playlistListB-music-item-order{
-  max-inline-size: 22px;
+  max-inline-size: 1.375rem;
   text-align: center;
   font: var(--basefont);
   line-height: 2.5rem;
@@ -117,7 +117,7 @@
 .playlistListB-song {
   display: flex;
   gap: 0.5rem;
-  align-items: center; 
+  align-items: center;
 }
 
 .playlistListB-song-cover{
@@ -132,12 +132,12 @@
 .playlistListB-name {
   margin: 0;
   font: var(--small);
-  font-size: 10.5px;
+  font-size: .65625rem;
 }
 
 .playlistListB-artist {
   margin: 0;
   color: var(--gray10);
   font: var(--small);
-  font-size: 10.5px;
+  font-size: .65625rem;
 }
