@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/playlist.css" />
+
+  <meta property="og:title" content="Proyecto Spotifu by Marcelo Lanegra" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marcelolanegra.github.io/proyecto-spotifu/" />
+  <meta property="og:image"
+    content="https://marcelolanegra.github.io/proyecto-spotifu/icons/spotify-brandlogo.net_.png" />
+  <meta property="og:description" content="Spotifu en versión web." />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <title>Spotifu</title>
+</head>
+
+<body class="body">
+  <div class="layout">
+    <div class="layout-block">
+      <div class="layout-sidebar">
+        <div class="sidebar">
+          <header class="logo">
+            <a href="/" aria-current="page">
+              <img src="./images/spotifu-logo.png" class="logo-image" alt="Logo de Spotifu" width="112" height="32" />
+            </a>
+          </header>
+          <nav class="menu" aria-label="Principal">
+            <ul class="menu-list">
+              <li class="menuItem is-active">
+                <a href="/" class="link" aria-current="page"><i class="icon-home"
+                    aria-hidden="true"></i><span>Inicio</span></a>
+              </li>
+              <li class="menuItem">
+                <a href="/" class="link"><i class="icon-search" aria-hidden="true"></i><span>Buscar</span></a>
+              </li>
+              <li class="menuItem">
+                <a href="/" class="link"><i class="icon-creditCard" aria-hidden="true"></i><span>Premium</span></a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="library-navigation">
+            <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Creada para ti</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Escuchado recientemente</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="./playlistB.html" class="link">Tus Me Gusta</a>
+                </span>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="playlist-navigation">
+            <h2 class="list-title" id="playlist-navigation">Playlists</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Lo mejor de lo mejor</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Naruto al 100% para programar</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Para cantar en la ducha</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Sin parar</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Naruto openings</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Boku no pico</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">This is Pokémon</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Más populares de la semana</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Mis pistas de shazam</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Audio Library</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Amor y otras</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Latin</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Pokemon</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Para cantar</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Yui</a>
+                </span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="layout-main">
+        <div class="page">
+          <div class="page-block sticky">
+            <header class="header" aria-label="Barra superior y menú del usuario">
+              <div class="navigation-search-group">
+                <div class="navigation">
+                  <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <form class="search" role="search" aria-label="Buscar por Artistas, canciones o podcasts">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <input type="search" placeholder="Artistas, canciones o podcasts" />
+                </form>
+              </div>
+              <div class="user">
+                <div class="user-menu" aria-label="Menú del usuario">
+                  <img src="./images/marcelo.JPEG" width="28" height="28" alt="Foto de perfil del usuario"
+                    aria-label="Foto de perfil del usuario" />
+                  <span class="user-name ellipsis" aria-label="Nombre de usuario">Marcelo Lanegra</span>
+                  <img src="./images/Vector.png" width="10" height="6.17" alt="Más opciones"
+                    aria-label="Más opciones" />
+                </div>
+              </div>
+            </header>
+          </div>
+          <main class="page-block">
+            <section class="playlistListA" aria-labelledby="region1">
+              <div class="playlistListA-top">
+                <!-- <h2 class="playlistList-title" id="region1">Buenas noches</h2> -->
+                <div class="playlistListA-cover">
+                  <img src="./images/bunny.jpg" alt="Cover de Tus me gusta" height="183" width="312" />
+                </div>
+                <div class="playlistListA-description">
+                  <h1 class="playlistListA-title">Daily Mix 1</h1>
+                  <div class="playlistListA-infocontent">
+                    <span class="playlistListA-info">Los éxitos de pop del momento.</span>
+                    <span class="playlistListA-info">2,611,830 SEGUIDORES</span>
+                  </div>
+                  <div class="playlistListA-button">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      Reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="playlistListB-container">
+                <div class="playlistListB-button">
+                  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                    <i class="icon-play" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="playlistListB-content">
+                  <div class="playlistListB-header">
+                    <h3 class="playlistListB-order">#</h3>
+                    <h3 class="playlistListB-name">TÍTULO</h3>
+                    <h3 class="playlistListB-album">ÁLBUM</h3>
+                    <h3 class="playlistListB-addTime">AGREGADO EL</h3>
+                    <h3 class="playlistListB-duration">
+                      <i class="icon-clock" aria-hidden="true"></i>
+                    </h3>
+                  </div>
+                  <div class="playlistListB-music">
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">1</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/el-clavo.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">El Clavo (feat. Maluma) - Remix</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Prince Royce, Maluma</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">El Clavo (feat. Maluma) [Remix]</h3>
+                      <h3 class="playlistListB-addTime">hace 11 días</h3>
+                      <h3 class="playlistListB-duration">2:51</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">2</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/hangover.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">Hangover (feat. Prince Royce)</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Maluma, Prince Royce</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">F.A.M.E</h3>
+                      <h3 class="playlistListB-addTime">hace 11 días</h3>
+                      <h3 class="playlistListB-duration">4:01</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">3</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/overpass.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">Overpass Graffiti</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Ed Sheeran</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">=</h3>
+                      <h3 class="playlistListB-addTime">hace 21 días</h3>
+                      <h3 class="playlistListB-duration">3:56</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">4</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/as-it-was.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">As It Was</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Harry Styles</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">As It Was</h3>
+                      <h3 class="playlistListB-addTime">hace 21 días</h3>
+                      <h3 class="playlistListB-duration">2:47</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">5</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/mojando-asientos.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">Mojando Asientos (feat. Feid)</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Maluma, Feid</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">Mojando Asientos (feat. Feid)</h3>
+                      <h3 class="playlistListB-addTime">hace 26 días</h3>
+                      <h3 class="playlistListB-duration">4:12</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">6</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/embrujo.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">El Embrujo</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Morat, Antonio Carmona, Josemi Carmona</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">Balas Perdidas</h3>
+                      <h3 class="playlistListB-addTime">hace 30 días</h3>
+                      <h3 class="playlistListB-duration">3:58</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">7</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/mean.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">Mean</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">P!nk</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">Funhouse (Expanded Edition)</h3>
+                      <h3 class="playlistListB-addTime">22 mar 2022</h3>
+                      <h3 class="playlistListB-duration">4:17</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">8</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/old-love.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">Old Love - Acoustic; Live at MTV Unplugged, Bray
+                            Film
+                            Studios, Windsor, England, UK, 1/16/1992; 2013 Remaster</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Eric Clapton</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">Unplugged (Deluxe Edition)</h3>
+                      <h3 class="playlistListB-addTime">18 mar 2022</h3>
+                      <h3 class="playlistListB-duration">7:51</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">9</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/married.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">I Heard You’re Married (feat. Lil Wayne)</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">The Weeknd, Lil Wayne</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">Dawn FM</h3>
+                      <h3 class="playlistListB-addTime">3 mar 2022</h3>
+                      <h3 class="playlistListB-duration">4:23</h3>
+                    </div>
+                    <div class="playlistListB-music-item">
+                      <h3 class="playlistListB-music-item-order">10</h3>
+                      <div class="playlistListB-song">
+                        <div class="playlistListB-song-cover">
+                          <img src="./images/tragos.jpg" alt="" width="40" height="40">
+                        </div>
+                        <div class="playlistListB-song-details">
+                          <h3 class="playlistListB-name ellipsis-h">Los Tragos</h3>
+                          <h3 class="playlistListB-artist ellipsis-h">Reik, Maria Becerra</h3>
+                        </div>
+                      </div>
+                      <h3 class="playlistListB-album ellipsis-h">Los Tragos</h3>
+                      <h3 class="playlistListB-addTime">15 feb 2022</h3>
+                      <h3 class="playlistListB-duration">2:51</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+    <div class="layout-block">
+      <footer class="layout-bottom">
+        <div class="player">
+          <div class="player-nowPlaying">
+            <div class="nowPlaying">
+              <div class="nowPlaying-cover">
+                <img src="./images/Grand-escape.png" width="56" height="56"
+                  alt="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Tokio Miura."
+                  title="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Tokio Miura." />
+              </div>
+              <div class="nowPlaying-details">
+                <div class="nowPlaying-description">
+                  <a href="#song" class="nowPlaying-title">Grand Escape (feat. Tokio Miura)</a>
+                  <a href="RADWIMPS" class="nowPlaying-artist">RADWIMPS, Toko Miura</a>
+                </div>
+                <div class="nowPlaying-actions">
+                  <button class="player-control" role="switch" aria-checked="false"
+                    aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                    <i class="icon-heart" arida-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="player-playerControls">
+            <div class="playerControls">
+              <div class="playerControls-buttons" aria-label="Controles de reproducción">
+                <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                  <i class="icon-prev" aria-hidden="true"></i>
+                </button>
+                <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                  <i class="icon-play" aria-hidden="true"></i>
+                </button>
+                <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                  <i class="icon-next" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="playerPlayback">
+                <span class="playerPlayback-progressTime">01:12</span>
+                <div class="playerPlayback-slider">
+                  <div class="slider">
+                    <div class="slider-progress">
+                      <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                    </div>
+                  </div>
+                </div>
+                <span class="playerPlayback-progressTime">03:25</span>
+              </div>
+            </div>
+          </div>
+          <div class="player-playerVolume">
+            <div class="playerVolume">
+              <button class="player-control" aria-label="Silenciar" aria-describedby="volume-icon">
+                <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen alto"
+                  aria-hidden="true"></i>
+              </button>
+              <div class="playerVolume-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

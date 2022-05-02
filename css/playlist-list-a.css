@@ -1,0 +1,33 @@
+.playlistListA {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.playlistListA-top {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.playlistListA-cover img {
+  vertical-align: middle;
+}
+
+.playlistListA-description {
+  /* align-self: flex-end; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.playlistListA-title {
+  margin: 0;
+  font: var(--headline1);
+  color: var(--white);
+}
+
+.playlistListA-info {
+  display: block;
+  font: var(--basefont);
+  color: var(--white);
+}
