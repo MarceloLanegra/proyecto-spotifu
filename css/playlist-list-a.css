@@ -14,7 +14,6 @@
 }
 
 .playlistListA-description {
-  /* align-self: flex-end; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -65,12 +64,12 @@
 .playlistListA-header > * {
   flex: 1;
   font: var(--subtitle);
+  line-height: 1.375rem;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: .625rem;
   padding-block-start: .875rem;
   padding-block-end: .875rem;
-  /* line-height: 1.375rem; */
 }
 
 .playlistListA-play,.playlistListA-like {
@@ -114,10 +113,12 @@
 
 .playlistListA-duration{
   max-inline-size: 2.9375rem;
+  font-size: 1.125rem;
 }
 
 .playlistListA-addTime{
   max-inline-size: 5.625rem;
+  font-size: 1.125rem;
 }
 
 .playlistListA-music-item{
@@ -127,6 +128,7 @@
 .playlistListA-music-item > * {
   flex: 1;
   font: var(--basefont);
+  line-height: 1.5625rem;
   margin: 0;
   padding-inline-start: .625rem;
   padding-block-start: .875rem;
